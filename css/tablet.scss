@@ -1,0 +1,86 @@
+@media screen and (max-width: 999px) and (min-width: 700px) {
+
+    $green-color: #38d39f;
+
+    .navlogo {
+        position: fixed;
+        top: 0;
+        margin: 15px 25px;
+        color: white
+    }
+
+    nav {
+        width: 100%;
+        
+
+        ul {
+            max-height: 0px;
+            background: rgb(43, 42, 42);
+            
+        }
+
+        li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px 0;
+            text-align: center;
+        }
+
+        a:focus {
+            color: $green-color;
+        }
+        
+        
+    }
+
+
+    nav.black ul {
+        background: rgb(43, 42, 42);
+    }
+
+    .showing {
+        max-height: 25em;
+       
+    }
+
+    .menu-icon { 
+        display: block;
+        font-size: 32px;
+        
+    }
+
+    .secHomeCont {
+
+        div {
+            margin: 75px;
+        }
+    }
+
+    .sectionNav {
+        height: 70vh;
+    }
+
+    #topBtn {
+    bottom: 90px;
+    right: 15px;
+    }
+
+
+}
+
+//Tablet + Laptop
+@media screen and (max-width: 1280px) and (min-width: 1000px) {
+
+    nav {
+        
+        li{
+            padding-right: 40px;
+        }
+    }
+
+    .navlogo {
+
+        margin: 25px 35px;
+    }
+
+}

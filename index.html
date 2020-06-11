@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./css/desktop.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/LaptopTablet.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/4671c88c3a.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+    
+    <section class="sectionNav dispNone" id="home">
+      <nav>
+        <div class="menu-icon">
+          <i class="fas fa-bars"></i>
+        </div>
+
+        <div class="navlogo">Delta<span>net</span></div>
+        <div class="menu">
+          <ul>
+            <li><a href="#home" class="scroll">Domov</a></li>
+            <li><a href="#service" class="scroll">Služby</a></li>
+            <li><a href="#about" class="scroll">O nás</a></li>
+            <li><a href="#contact" class="scroll">Kontakt</a></li>
+            <li><a href="https://shop.deltanet.sk/">E-shop</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="navTextBtn">
+        <div class="navTextBtn2">
+          <h1>IT firma pre vás</h1>
+          <p>
+            Sme firma s 26 ročnými skúsenostami.
+          </p>
+        
+        <a href="#about" id="aboutBtn">
+          <button class="navButton">Viac Info</button>
+        </a>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <button id="topBtn"><i class="fas fa-arrow-up"></i></button>
+
+      <section class="sectionHome dispNone" id="home">
+        <h3>Čo ponúkame</h3>
+        <div class="secHomeCont">
+          <div>
+            <i class="fas fa-tachometer-alt"></i>
+            <h4>Rychlost</h4>
+            <p>Sme rychly jak blesk.</p>
+          </div>
+
+          <div>
+            <i class="fas fa-check-circle"></i>
+            <h4>Skusenosti</h4>
+            <p>Mame dlhorocne skusenosti</p>
+          </div>
+
+          <div>
+            <i class="fas fa-user-tie"></i>
+            <h4>Profesionalita</h4>
+            <p>Profesionalny pristup.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="sectionService dispNone" id="service">
+        <h3>Naše služby</h3>
+
+        <div class="container">
+          <div>
+            <div class="servImg1 responSize">
+              <button data-modal-target="#modal1" class="modalBtn">
+                Viac Info
+              </button>
+            </div>
+            <h4>Outsourcing</h4>
+            <p>Odovzdanie aktivít podniku...</p>
+          </div>
+          <div>
+            <div class="servImg2 responSize">
+              <button data-modal-target="#modal2" class="modalBtn">
+                Viac Info
+              </button>
+            </div>
+            <h4>Networking</h4>
+            <p>Budovanie a tvorba sietí...</p>
+          </div>
+          <div>
+            <div class="servImg3 responSize">
+              <button data-modal-target="#modal3" class="modalBtn">
+                Viac Info
+              </button>
+            </div>
+            <h4>Počítače a komponenty</h4>
+            <p>Široký sortiment techniky...</p>
+          </div>
+        </div>
+
+        <div class="container">
+          <div>
+            <div class="servImg4 responSize">
+              <button data-modal-target="#modal4" class="modalBtn">
+                Viac Info
+              </button>
+            </div>
+            <h4>Zabezpečovacie systémy</h4>
+            <p>Chránenie svojho vlastníctva...</p>
+          </div>
+          <div>
+            <div class="servImg5 responSize">
+              <button data-modal-target="#modal5" class="modalBtn">
+                Viac Info
+              </button>
+            </div>
+            <h4>Kamerové systémy</h4>
+            <p>Ochrana majetku...</p>
+          </div>
+          <div>
+            <div class="servImg6 responSize">
+              <button data-modal-target="#modal6" class="modalBtn">
+                Viac Info
+              </button>
+            </div>
+            <h4>TV a SAT</h4>
+            <p>Digitalizácia TV signálu...</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="sectionAbout dispNone">
+        <div class="inner-width">
+          <h3>Kto sme</h3>
+          <div class="borderAbout"></div>
+          <div class="about-section-row">
+            <div class="about-section-col">
+              <div class="aboutSecText">
+                <p>
+                  Vážení obchodní partneri, dovoľujeme si Vám predstaviť
+                  spoločnosť Deltanet s.r.o. Spoločnosť vznikla v apríli 1993 a
+                  konštituovala sa na základe dlhodobej spolupráce zakladateľov
+                  v oblasti výpočtovej techniky, komunikačných technológií,
+                  meracích a riadiacich systémov TP. Preto sa stali hlavnými a
+                  strategickými zámermi firmy dodávky technických a systémových
+                  prostriedkov firemných počítačových systémov.
+                  <!-- - počítače, servery, počítačové siete, kabelážne systémy, dodávka komponentov a systémov pre automatizáciu technologických procesov 
+                  - monitorovanie a riadenie výrobných systémov, dodávky komunikačných technológií a neposlednom rade poskytovanie pripojenia do siete Internet. 
+                  V oblasti nami poskytovaných služieb stojí za zmienku i servis IT priamo u zákazníka formou Outsourcingu. -->
+                </p>
+              </div>
+            </div>
+            <div class="about-section-col">
+              <div class="skills">
+                <div class="skill">
+                  <div class="titleAbout">Spokojnych zakaznikov</div>
+                  <div class="progress">
+                    <div class="progress-bar p1"><span>100%</span></div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <div class="titleAbout">Rokov Skusenosti</div>
+                  <div class="progress">
+                    <div class="progress-bar p2"><span>23r.</span></div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <div class="titleAbout">Pocet Zamestanacov</div>
+                  <div class="progress">
+                    <div class="progress-bar p3"><span>3</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="imgAbout">
+          
+        <div>
+        <img src="./pictures/partners1.png" alt=""/>
+        <img src="./pictures/partners2.png" alt=""/>
+        <img src="./pictures/partners3.png" alt=""/>
+        </div>
+
+        <div>
+        <img src="./pictures/partners4.png" alt=""/>
+        <img src="./pictures/partners5.png" alt=""/>
+        <img src="./pictures/partners6.png" alt=""/>
+        </div>
+     
+      </div>
+      </section>
+
+      <section id="contact" class="sectionContact dispNone">
+        <h3>Kontaktujte nas</h3>
+        <div class="sectContDiv">
+          <form class="contact-form" action="./php/contactForm.php" method="POST">
+            <input
+              type="text"
+              name="name"
+              class="contact-form-text"
+              placeholder="Meno a Priezvisko"
+              required
+              minlength="3"
+              maxlength="30"
+              pattern="[A-Za-z]+"
+              oninvalid="setCustomValidity('Zadaj minimálne 3 znaky a maximálne 30. Nezadávaj čísla.')"
+            />
+            <input
+              type="email"
+              name="email"
+              class="contact-form-text"
+              placeholder="E-mail"
+              required
+            />
+            <input
+              type="text"
+              name="subject"
+              class="contact-form-text"
+              placeholder="Predmet"
+              required
+              minlength="3"
+              maxlength="20"
+            />
+            <textarea
+              class="contact-form-text"
+              name="message"
+              placeholder="Vasa sprava"
+              type="text"
+              required
+              minlength="3"
+              maxlength="100"
+            ></textarea>
+
+            <div class="contact-form-btn">
+              <!-- <input type="submit" value="Odoslat"> -->
+              <button type="submit" name="submit">Odoslať</button>
+            </div>
+          </form>
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2650.1665113191025!2d17.597499315943054!3d48
+        .376537542465854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476b5f795278a2b1%3A0x96bc8455c8ed45ad!2sDeltanet
+        %20s.r.o.!5e0!3m2!1ssk!2ssk!4v1567071909481!5m2!1ssk!2ssk" 
+        width="480" height="410" frameborder="0" style="border:0; border-radius: 4px;" allowfullscreen=""></iframe>
+        
+        </div>
+      </section>
+
+      <footer class="dispNone">
+        <p>Copyright &copy; MK 2019</p>
+      </footer>
+    </main>
+
+    <!-- Modal Window 1 -->
+    <div class="modal" id="modal1">
+      <div class="modal-header">
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h4>Outsourcing</h4>
+        <img src="./pictures/outsourcing.jpg" alt="" />
+        
+        <p>
+          Outsourcingom sa označuje odovzdanie vnútropodnikových aktivít zvyčajne nesúvisiacich s hlavnou činnosťou podniku na externý subjekt (napríklad subdodávateľa).
+          Outsourcing IT je teda zmluvná dodávka služieb v oblasti informačných technológií ako sú: 
+          servis počítačov a serverov, servis tlačiarní a ostatných periférií, 
+          servis komponentov počítačových sietí, systémová podpora užívateľov výpočtovej techniky, 
+          programová podpora užívateľov výpočtovej techniky, 
+          komplexná profilaktika výpočtovej a kancelárskej techniky, 
+          zálohovanie dát, zavádzanie bezpečnostných opatrení v oblasti IT, 
+          podpora užívateľov v kritických situáciách. 
+          V rámci outsourcingu sa zameriavame na dodávky služieb prevádzky IT infraštruktúry a aplikácií vyššie uvedených u malých až stredne veľkých firiem a inštitúcií. 
+          Ťažisko ponúkaných služieb spočíva v správe a údržbe IT infraštruktúry a aplikácií zákazníka a podpore užívateľov v kritických situáciách. 
+        </p>
+        <button data-close-button class="close-button closeBtnModal">Close</button>
+      </div>
+    </div>
+    <!-- Modal Window 2 -->
+    <div class="modal" id="modal2">
+      <div class="modal-header">
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h4>Guvno</h4>
+        <img src="./pictures/networking.jpg" alt="" />
+        <p>
+          Networking = budovanie sietí, tvorba sietí,..
+          Je to oblasť, ktorá veľmi úzko súvisí s ostatnými službami poskytovanými našou spoločnosťou 
+          (Outsourcing, Internet, Priemyselné systémy, predaj výpočtovej a kancelárskej techniky,...).
+          Sieťové prepojenie vyžaduje tak veľká ako i malá firma, ktorá potrebuje prepojenie medzi počítačmi jednotlivých užívateľov so serverom alebo počítačmi navzájom, 
+          spojenie do Internetu, prípadne prepojenie rôznych technologických zariadení,
+          tak i domáci užívateľ, ktorý potrebuje pripojiť svoj počítač, alebo mobilné zariadenia do Internetu,  prepojiť rôzne multimediálne zariadenia navzájom a pod.
+          Služby:
+          * návrh riešenia kabeláže / počítačovej siete
+          * projektovanie štruktúrovanej kabeláže
+          * dodávky komponentov štruktúrovanej kabeláže
+          * inštalácia štruktúrovanej kabeláže
+          * meranie kabeláže s možnosťou vystavenia meracieho protokolu
+          * diagnostika porúch v kabeláži 
+        </p>
+        <button data-close-button class="close-button closeBtnModal">Close</button>
+      </div>
+    </div>
+    <!-- Modal Window 3 -->
+    <div class="modal" id="modal3">
+      <div class="modal-header">
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h4>Guvno</h4>
+        <img src="./pictures/pcHardware.jpg" alt="" />
+        <p>
+          Ponúkame široký sortiment techniky rôznych značiek a služby spojené s dodávkami tejto techniky:
+          * konzultácie a odporučenia z ohľadom na potreby zákazníka
+          * inštalácia techniky u zákazníka
+          * inštalácia a konfigurácia softvéru
+           Ponúkaná technika:
+          * počítače a notebooky značiek HP, Dell, Toshiba, Lenovo, Asus, Acer
+          počítačové komponenty:
+          * základné dosky Intel, Asus, Msi, Gigabyte
+          * procesory Intel, Amd
+          * grafické karty Asus, Ati, Sapphire
+          * pevné a ssd disky Seagate, Western digital, Hitachi, Intel, Kingston
+          * optické mechaniky Samsung, LG, Asus
+          * monitory Samsung, LG, Asus, HP, AOC, Philips, Acer
+          * projektory a plátna Epson, Acer, Benq
+          * sieťové karty, switche, routery HP, Cisco, Zyxel, Asus
+          * tlačiarne a multifunkcie HP, Canon, Samsung,Xerox, Minolta, Lexmark, Epson, Oki
+          * telekominikačné zariadenia Siemens, Canon, Panasonic
+          Kompletný sortiment ponúkanej techniky nájdete na shop.deltanet.sk
+        </p>
+        <button data-close-button class="close-button closeBtnModal">Close</button>
+      </div>
+    </div>
+    <!-- Modal Window 4 -->
+    <div class="modal" id="modal4">
+      <div class="modal-header">
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h4>Guvno</h4>
+        <img src="./pictures/alarm.jpg" alt="" />
+        <p>
+          Je prirodzené, že človek sa snaží chrániť si svoje vlastníctvo, svoj majetok. 
+          V tomto smere hrajú významnú úlohu páve Elektronické Zabezpečovacie Systémy (EZS).
+          Ich úlohou je detekovať narušenie v chánenom objekte a ďalej na tento stav upozorniť. 
+          Upozornenie môže byť lokálne (siréna), alebo vzdialené - prenosom na bezpečnostnú agentúru (PCO) a/alebo upozornením priamo majiteľovi objektu.
+          EZS pozostáva z viacerých komponentov - základ tvorí ústredňa, na ktorú sú pripojené klávesnice, rôzne komunikačné moduly a snímače pohybu, 
+          otvorenia dverí či okien, rozbitia skla, dymové detektory a pod. Ponúkame kompletný sortiment od renomovaného kanadského výrobcu PARADOX Security systems 
+          doplnené o komponenty iných výrobcov tak, aby sme boli schopní riešiť väčšinu štandardných situácií pre zabezpečenie 
+          (byty, domy, budovy, kancelárske priestory, sklady, ubytovacie zariadenia, obchody, vonkajšie priestory, atď.).
+          Naša spoločnosť vlastní licenciu na poskytovanie technickej služby v zmysle § 7 ods. 1 zákona č. 473/2005 Z.z. na projektovanie,
+          predaj, montáž, údržbu, revízie a opravy elektronických zabezpečovacích systémov.
+        </p>
+        <button data-close-button class="close-button closeBtnModal">Close</button>
+      </div>
+    </div>
+    <!-- Modal Window 5 -->
+    <div class="modal" id="modal5">
+      <div class="modal-header">
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h4>Guvno</h4>
+        <img src="./pictures/camera.jpg" alt="" />
+        <p>
+          Pri ochrane majetku, ako i pri monitorovaní napr. pracovísk či verejných i neverejných priestorov, 
+          parkovísk alebo spoločných piestorov bytových domov, sa čoraz viac využívajú KAMEROVÉ SYSTÉMY.
+          Nami ponúkané kamerové systémy umožňujú online sledovanie monitorovaného priestoru kdekoľvek sa nachádzate 
+          - možný je i prístup cez internet a to i z mobilných zariadení ako sú smartfóny alebo tablety. 
+          Systém vykonáva automaticky video-záznam podľa definovaných kritérií a ukladá na pevný disk záznamového 
+          zariadenia kde je k dispozícii na prípadné ďalšie vyhľadávanie a prehrávanie, archív záznamov môže byť až niekoľko mesiacov. 
+          V súčasnosti sa inštalujú hlavne IP kamerové systémy (podľa použitých digitálnych IP kamier). 
+          Medzi hlavné výhody IP kamier patrí hlavne jednoduchšia kabeláž a bezstratový prenos videozáznamu od kamery k záznamovému zariadeniu, 
+          keďže k digitalizácii záznamu dochádza už v kamere. IP kamery nemajú obmedzené rozlíšenie záznamu na 576i, ako je to pri analógových kamerách, 
+          a preto je bežné, že kvalitnejšie IP kamery poskytujú záznam v HD resp. i vo Full HD rozlíšení - praktický význam to má hlavne pri vyberaní detailov zo záznamu, 
+          identifikácii osoby a pod.
+        </p>
+        <button data-close-button class="close-button closeBtnModal">Close</button>
+      </div>
+    </div>
+    <!-- Modal Window 6 -->
+    <div class="modal" id="modal6">
+      <div class="modal-header">
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="modal-body">
+        <h4>Guvno</h4>
+        <img src="./pictures/tvSat.jpg" alt="" />
+        <p>
+          Digitalizácia už plne pohltila i oblasť šírenia a príjmu televízneho signálu.
+          Ponúkame Vám dodávku kvalitných komponentov a inštaláciu rozvodov a zariadení 
+          pre príjem televízneho signálu šíreného pozemskými vysielačmi systémom DVB-T a tiež i šíreného prostredníctvom SATelitného vysielania.
+          Naša spoločnosť je partnerom spoločnosti Towercom, ktorá zabezpečuje šírenie digitálneho tv vysielania systémom DVB-T pre Slovenskú republiku 
+          a tiež partnerom spoločnosti M7 Group, ktorá prevádzkuje satelitné platformy Skylink a Cslink.
+          Služby a dodávky digitálnej televízie:
+          * návrh riešenia rozvodov pre DVB-T a SATelitný tv príjem
+          * dodávky komponentov a zariadení
+          * inštalácia rozvodov
+          * predaj a aktivácia kariet Skylink
+          * predaj a aktivácia platených programov Skylink
+        </p>
+        <button data-close-button class="close-button closeBtnModal">Close</button>
+      </div>
+    </div>
+    <div id="overlay"></div>
+
+    <script src="./js/ScrollMenu.js" async defer></script>
+    <script src="./js/MobNav.js" async defer></script>
+    <script src="./js/SectionHover.js" async defer></script>
+    <script src="./js/ScrollButton.js" async defer></script>
+    <script src="./js/SectionAnimation.js" async defer></script>
+    <script src="./js/ModalWindow.js" async defer></script>
+    <script src="./js/services.js" async defer></script>
+  </body>
+</html>
